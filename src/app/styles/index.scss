@@ -1,0 +1,18 @@
+@import "reset";
+@import "variables/global";
+@import "./themes/normalize.scss";
+@import "themes/datk";
+
+.App{
+    font: var(--font-l);
+    background: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+}
+.content-page{
+    display: flex;
+}
+.page-wrapper{
+    flex-grow: 100;
+    padding: 20px;
+}
